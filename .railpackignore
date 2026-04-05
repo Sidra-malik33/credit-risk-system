@@ -1,0 +1,18 @@
+# Ignore unnecessary large files
+*.csv
+*.xlsx
+*.ipynb
+data/
+datasets/
+notebooks/
+
+# Ignore training scripts (optional)
+train.py
+
+# Ignore cache
+__pycache__/
+*.pyc
+
+# Ignore virtual env
+.venv/
+env/
