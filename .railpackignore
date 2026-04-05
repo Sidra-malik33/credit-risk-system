@@ -1,18 +1,21 @@
-# Ignore unnecessary large files
 *.csv
 *.xlsx
 *.ipynb
+.ipynb_checkpoints/
+
 data/
 datasets/
 notebooks/
 
-# Ignore training scripts (optional)
 train.py
+training_dataset.csv
 
-# Ignore cache
 __pycache__/
 *.pyc
 
-# Ignore virtual env
 .venv/
 env/
+
+*.log
+*.png
+*.jpg
